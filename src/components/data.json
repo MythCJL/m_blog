@@ -1,0 +1,32 @@
+{
+  "cards": {
+    "card1": {
+      "title": "A good start",
+      "p": "朝着预期的效果一步一步逼近了，总算能好好做一个事了",
+      "detail": "能不能写的多一点呢",
+      "href": "/posts/card1"
+    },
+    "card2": {
+      "title": "面试一直找不到",
+      "p": "哎，可能因为没有实习经历或者工作经验都这样吧，或许不该来广州找的= =",
+      "detail": "能不能写的多一点呢",
+      "href": "/posts/card1"
+    },
+    "card3": {
+      "title": "又是无果的一周",
+      "p": "是不是因为我的简历写的太随意还是因为却反工作经验，总之一直没有回音，就算看不上，给个回音也好啊，哎",
+      "detail": "能不能写的多一点呢",
+      "href": "/posts/card1"
+    }
+  },
+  "list": {
+    "item1": {
+      "title": "All Post",
+      "href": "/posts"
+    },
+    "item2": {
+      "title": "Music",
+      "href": "/music"
+    }
+  }
+}
