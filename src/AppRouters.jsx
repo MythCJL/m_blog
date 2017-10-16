@@ -8,6 +8,7 @@ import AppHome from './components/AppHome.jsx';
 import AppPosts from './components/AppPosts.jsx';
 import AppPost from './components/AppPost.jsx';
 import AppFooter from './components/AppFooter.jsx';
+import AppMusic from './components/AppMusic.jsx';
 
 const styles = theme => ({
   '@global': {
@@ -49,6 +50,7 @@ function AppRouters(props) {
       <div className={classes.main}>
         <Route exact path="/" component={AppHome} />
         <Route exact path="/posts" component={AppPosts} />
+        <Route path="/music" component={AppMusic} />
         <Route path="/posts/:id" component={AppPost} />
       </div>
       <AppFooter />

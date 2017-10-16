@@ -4,6 +4,7 @@
   "description": "a simple example of react",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config ./config/webpack.dev.js",
     "start": "webpack-dev-server --open --config ./config/webpack.dev.js",
     "publish": "webpack --config ./config/webpack.pro.js"
   },
@@ -21,6 +22,7 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "^7.4.0",
+    "file-loader": "^1.1.5",
     "style-loader": "^0.18.2",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"

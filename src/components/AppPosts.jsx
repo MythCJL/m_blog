@@ -10,9 +10,7 @@ import data from './data.json';
 
 const styles = theme => ({
   root: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
+    maxWidth: 960,
   },
   card: {
     margin: '2em',
@@ -32,7 +30,7 @@ function AppPosts(props) {
   const classes = props.classes;
   const cards = Object.values(data.cards);
   return (
-    <div>
+    <div className={classes.root}>
       {cards.map(card => (
         <Card className={classes.card} key={card.title}>
           <CardContent>
